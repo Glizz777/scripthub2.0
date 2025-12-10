@@ -1,0 +1,6 @@
+while true do
+    for _ = 1,400 do
+        game.ReplicatedStorage.Modules.EventManagerClient.ServerEvent:FireServer("ClaimReward")
+    end
+    task.wait(.1)
+end
